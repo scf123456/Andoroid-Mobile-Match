@@ -21,6 +21,7 @@ public class InitApp extends MultiDexApplication {
     private static Context AppContext;
     private Set<Activity> allActivities;
 
+
     private static InitApp instance = null;
 
     public static synchronized InitApp getInstance() {
